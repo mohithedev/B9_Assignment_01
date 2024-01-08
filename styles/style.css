@@ -261,3 +261,43 @@ p{
   scale: 1.2;
 }
 /* portfolio style end  */
+/* newsletter style start  */
+.newsletter_main{
+  background: #d5aee5c0;
+  text-align: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter_content{
+  width: 740px ;
+}
+.newsletter_content img{
+  margin: 0 0 40px;
+}
+.newsletter_content .newsletter_description{
+  margin: 0 0 38px ;
+}
+.newsletter_content form input{
+  border: none;
+  outline: none;
+  padding: 25px 30px;
+  border-radius: 50px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+.newsletter_content form input[type='email']{
+  width: 400px;
+  color: #333;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.newsletter_content form input[type='submit']{
+  color: #fff;
+  background: #f00;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* newsletter style end  */
