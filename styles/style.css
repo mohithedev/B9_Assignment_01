@@ -211,6 +211,9 @@ p{
 /* coming soon style end  */
 /* holidays sale style start  */
 .holidays_main{
+  background: #e0ab6a52;
+  background: rgba(141, 131, 108, 0.344);
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,3 +304,36 @@ p{
   border-bottom-left-radius: 0;
 }
 /* newsletter style end  */
+/* footer style start  */
+footer{
+  background: #070211;
+  /* overflow: hidden; */
+}
+footer .container{
+  margin-bottom: 0;
+}
+footer p, a{
+  color: #fff;
+  font-size: 19px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 33px;
+  text-decoration: none;
+}
+.address,
+.social, 
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #ffffff26;
+}
+.social{
+  justify-content: center;
+  gap: 20px;
+}
+.copyright{
+  border-bottom: 0;
+}
+/* footer style end  */
