@@ -127,3 +127,36 @@ body {
   vertical-align: middle;
 } 
 /* welcome style end  */
+/* place style start  */
+.place_main{
+  height: 398px;
+  background: linear-gradient(#dab2f3, #e9edc9);
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+}
+.place_content{
+  padding: 90px 0 40px 0;
+}
+.place_content .place_heading{
+  font-family: inter;
+  color: #070211;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 46px;
+  text-transform: capitalize;
+}
+.place_content .place_heading .red{
+  color: #f00;
+}
+.place_main .place_btn{
+  padding: 12px 28px;
+  background: #F00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+/* place style end  */
