@@ -89,7 +89,7 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 38px;
-  font-family: inter;
+  font-family: Inter;
   height: 495px;
 }
 .welcome_main .welcome_content{
@@ -117,7 +117,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
+  cursor: poInter;
   background: rgba(70, 92, 78, 0.867);
   color: #fff;
 }
@@ -138,7 +138,7 @@ body {
   padding: 90px 0 40px 0;
 }
 .place_content .place_heading{
-  font-family: inter;
+  font-family: Inter;
   color: #070211;
   font-size: 26px;
   font-weight: 500;
@@ -157,6 +157,52 @@ body {
   border: none;
   border-radius: 8px;
   text-transform: uppercase;
-  cursor: pointer;
+  cursor: poInter;
   }
 /* place style end  */
+/* coming soon style start  */
+.soon_main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+}
+.soon_content .offer_title{
+  color: #f00;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: Inter;
+  margin: 0 0 15px;
+}
+.soon_content .soon_heading{
+  color: #070211;
+  font-size: 39px;
+  font-family: Merriweather;
+  font-weight: 700;
+  margin: 0 0 18px;
+}
+.soon_content .red_2024{
+  color: #f00;
+  font-family: Inter;
+}
+.soon_content .soon_description{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  line-height: 26px;
+}
+.soon_content img{
+  width: 110px;
+  height: 110px;
+  margin: 40px 0 0;
+}
+.soon_main .soon_img{
+  padding: 25px;
+  border: 15px solid #f00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* coming soon style end  */
