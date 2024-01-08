@@ -7,8 +7,47 @@
   box-sizing: border-box;
   list-style: none;
 }
-/* Common Style */
+/* body Style */
 body {
-    
+    background: #fff;
 }
 /* General style */
+.container{
+  width: 82%;
+  max-width: 1320px;
+  margin: 50px auto;
+}
+/* Common style */
+.heading_title{
+  font-family: Merriweather;
+  font-size: 59px;
+  font-weight: 900;
+  line-height: 95px;
+}
+p{
+  
+}
+/* Header style start */
+.banner{
+  height: 600px;
+  background-image: url('../assets/Banne_Image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_content{
+  width: 521px;
+  text-align: center;
+  color: #fff;
+}
+.banner_content h4{
+  font-family: Merriweather;
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+/* Header style end */
